@@ -1,0 +1,42 @@
+/* .filter_nav .filter{
+
+} */
+.filter_nav div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.filter_nav img{
+    margin: 0 auto;
+    width:30px;
+}
+.filter_nav p{
+    text-align: center;
+    font-size: 10px;
+}
+.filter_nav .slick-slider .slick-list .slick-track .slick-slide:hover{
+    border-bottom: 2px solid #eeeeee;
+    cursor: pointer;
+    text-align: center;
+}
+.filter_nav .slick-slider .slick-prev,
+.filter_nav .slick-slider .slick-next{
+    top: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+}
+.filter_nav .slick-slider .slick-prev{
+    left:10px;
+    z-index: 1;
+}
+.filter_nav .slick-slider .slick-next{
+    right:10px;
+}
+/* .filter_nav p:hover{
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 20px;
+    overflow: hidden;
+} */
+/* .filter_nav .slick-slider .slick-list .slick-track .slick-slide.slick-cloned{
+    opacity: 0;
+} */

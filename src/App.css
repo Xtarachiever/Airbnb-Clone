@@ -1,0 +1,28 @@
+.App{
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.nav_footer{
+  position:fixed;
+  bottom:0px;
+  background-color:white;
+  width:100%;
+  border-top: 1px solid #EBEBEB !important;
+  z-index: 2;
+}
+.wrapper{
+  height: calc(100% - 80px);
+  min-height: 100vh;
+}
+.nav_wrapper{
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  background-color: white;
+  z-index: 2;
+}
+.main_body{
+  padding-top: 225px;
+}
