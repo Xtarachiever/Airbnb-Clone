@@ -1,0 +1,74 @@
+.grid_div{
+    max-width: 400px;
+    flex: 1 1 0;
+    min-width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.slick-slider .slick-next,
+.slick-slider .slick-prev{
+    background-color: transparent;
+    color: black;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #eeeeee;
+    border-radius: 50px;
+    display: none !important;
+    background-color: white;
+}
+.slick-slider .slick-next{
+    right: 20px;
+}
+.slick-slider .slick-prev{
+    left: 20px;
+    z-index: 1;
+}
+.slick-slider:hover .slick-next,
+.slick-slider:hover .slick-prev{
+    display: block !important;
+}
+.slick-slider .slick-dots{
+    bottom: 20px;
+}
+/* .slick-slider .slick-dots li{
+    width: 5px;
+    height: 5px;
+} */
+.slick-slider .slick-dots li button{
+    color: transparent;
+    background-color: white;
+    width: 6px;
+    height: 6px;
+    opacity: 0.5;
+    border-radius: 50px;
+    padding: 2px;
+}
+.slick-slider .slick-dots li.slick-active button{
+    opacity: 1;
+}
+.slick-slider .slick-dots li button::before{
+    display: none;
+    content: '';
+    width: 10px;
+}
+.grid_div .hearts{
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    right: 10px;
+}
+.book_div{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    z-index: 1;
+}
+.flipping_book{
+    background-color: #f5f2f2;
+    width: 70px;
+    height: 80px;
+    display: block;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
